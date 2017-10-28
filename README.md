@@ -5,7 +5,9 @@ Tiny generic docker image to build Serverless projects based on Linux Alpine. Us
 
 Currently contained installed and globally exposed:
 
-* [Git](https://git-scm.com/)
+* bash
+* [git](https://git-scm.com/)
+* [curl](https://curl.haxx.se/)
 * [OpenSSH Client](http://www.openssh.org/portable.html)
 * [Serverless](https://serverless.com/)
 * [Babel](https://babeljs.io/)

@@ -7,5 +7,6 @@ Currently contained installed and globally exposed:
 
 * [Git](https://git-scm.com/)
 * [OpenSSH Client](http://www.openssh.org/portable.html)
+* [curl](https://curl.haxx.se/)
 * [Serverless](https://serverless.com/)
 * [Babel](https://babeljs.io/)

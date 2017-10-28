@@ -6,8 +6,10 @@ FROM alpine
 RUN apk add --update \
     git \
     openssh-client \
+    curl \
     nodejs \
-    nodejs-npm
+    nodejs-npm \
+    && rm -rf /var/cache/apk/*
 
 RUN npm install -g \
     serverless \

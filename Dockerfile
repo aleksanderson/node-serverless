@@ -5,6 +5,7 @@ FROM alpine
 
 RUN apk add --update \
     git \
+    openssh-client \
     nodejs \
     nodejs-npm
 

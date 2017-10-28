@@ -4,9 +4,9 @@
 FROM alpine
 
 RUN apk add --update \
+    bash \
     git \
     openssh-client \
-    curl \
     nodejs \
     nodejs-npm \
     && rm -rf /var/cache/apk/*

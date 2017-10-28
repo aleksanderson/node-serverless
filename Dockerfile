@@ -4,6 +4,7 @@
 FROM alpine
 
 RUN apk add --update \
+    git \
     nodejs \
     nodejs-npm
 
